@@ -1,10 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaBiz Analytics</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; background: #f0f2f5; }
+        h1 { color: #1a73e8; }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px;
+            font-size: 18px;
+            background: #1a73e8;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .button:hover { background: #1557b0; }
+        .info { margin: 30px; color: #555; }
+    </style>
 </head>
 <body>
-$END$
+<h1>🌿 InstaBiz Analytics</h1>
+<p class="info">Твой личный аналитический инструмент для Instagram Business</p>
+
+<a href="/oauth2/authorization/instagram" class="button">
+    🔗 Подключить Instagram
+</a>
+
+<a href="/sync" class="button">
+    🔄 Синхронизировать данные
+</a>
+
+<a href="/h2-console" class="button">
+    🗄️ Открыть базу данных (H2)
+</a>
+
+<a href="/swagger-ui.html" class="button">
+    📚 API Документация (Swagger)
+</a>
+
+<div class="info">
+    <p>После подключения аккаунта — нажми "Синхронизировать данные"</p>
+    <p>Все посты и метрики (impressions, reach, engagement) сохраняются в базу</p>
+</div>
 </body>
 </html>

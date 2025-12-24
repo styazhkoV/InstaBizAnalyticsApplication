@@ -4,7 +4,7 @@
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     <module name="InstaBiz Analytics" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.styzhkov.instabiz.InstaBizAnalyticsApplication.class" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.styzhkov.instabiz.InstaBizAnalyticsApplication" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
